@@ -107,10 +107,10 @@ const datas = [
 
 export default function Selector() {
     return (
-        <ul class="w-full flex flex-row overflow-x-scroll sm:overflow-x-hidden sm:justify-center gap-5 p-4">
-          
+        <ul className="w-[100%] flex flex-row overflow-x-scroll sm:overflow-x-hidden sm:justify-center gap-5 p-4">
+
             {datas.map((item) => (
-                <li class="flex flex-col  justify-between items-center font-semibold  dropdown  px-4   cursor-pointer  text-base  ">
+                <li className="flex flex-col  justify-between items-center font-semibold  dropdown  px-4   cursor-pointer  text-base  ">
                     <img src={item.img} alt="" width={70} height={70} />
                     <div className='mt-4 flex gap-1 justify-center items-center'>
                         <p className='text-sm text-center'>{item.name}</p>
@@ -119,12 +119,12 @@ export default function Selector() {
 
                     {item.more ?
                         (
-                            <div class=" group-hover:block dropdown-menu absolute  hidden  h-auto">
-                                <ul class="top-28 right-0 absolute  w-64 bg-white shadow px-2 py-6">
+                            <div className=" group-hover:block dropdown-menu absolute  hidden  h-auto">
+                                <ul className="top-28 right-0 absolute  w-64 bg-white shadow px-2 py-6">
 
                                     {item.more.map((list) => (
-                                        <li class="   flex items-center  rounded-lg p-2 text-base  hover:bg-gray-200">
-                                            <a class="block text-gray-500 text-base  cursor-pointer">{list.title}</a>
+                                        <li className="   flex items-center  rounded-lg p-2 text-base  hover:bg-gray-200">
+                                            <div className="block text-gray-500 text-base  cursor-pointer">{list.title}</div>
                                         </li>
 
                                     ))}
