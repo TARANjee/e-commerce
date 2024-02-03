@@ -11,7 +11,7 @@ const datas = [
     {
         name: 'Mobiles',
         href: '#',
-        img: '/mobile.jpg'
+        img: 'https://img.freepik.com/free-psd/full-screen-smartphone-mockup-design_53876-65968.jpg?size=626&ext=jpg&ga=GA1.1.633684789.1705921309&semt=ais'
     },
     {
         name: 'Fashion',
