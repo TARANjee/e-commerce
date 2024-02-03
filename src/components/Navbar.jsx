@@ -38,7 +38,7 @@ export default function Navbar() {
 
                     <button className="sm:p-1  ">
 
-                        <img className="h-10 sm:h-12  " src="/logo.svg" alt="" />
+                        <img className="h-10 sm:h-12  " src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="" />
                     </button>
 
                 </div>
@@ -108,7 +108,7 @@ export default function Navbar() {
 
                         <button className="hidden md:block text-md  leading-6 text-gray-900">
                             <div className='flex gap-2 items-center'>
-                                <img className="w-7 h-7" src="/seller.png" alt="" />
+                                <img className="w-7 h-7" src="https://static.thenounproject.com/png/5077001-200.png" alt="" />
                                 <p className='hidden xl:block '>Become a Seller</p>
                             </div>
                         </button>
@@ -134,7 +134,7 @@ export default function Navbar() {
                             <span className="sr-only">Your Company</span>
                             <img
                                 className="h-8 w-auto"
-                                src="/logo.svg"
+                                src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
                                 alt=""
                             />
                         </button>
@@ -147,28 +147,28 @@ export default function Navbar() {
 
                                 <button className="w-[100%] text-md  leading-6 text-gray-900">
                                     <div className='flex gap-2 p-2 items-center'>
-                                        <img className="w-7 h-7" src="/seller.png" alt="" />
+                                        <img className="w-7 h-7" src="https://static.thenounproject.com/png/5077001-200.png" alt="" />
                                         <p className=''>Become a Seller</p>
                                     </div>
                                 </button>
 
                                 <button className="w-[100%] text-md  leading-6 text-gray-900">
                                     <div className='flex gap-2 p-2 items-center'>
-                                        <img className="w-7 h-7" src="/seller.png" alt="" />
+                                        <img className="w-7 h-7" src="https://static.thenounproject.com/png/5077001-200.png" alt="" />
                                         <p className=''>Become a Seller</p>
                                     </div>
                                 </button>
 
                                 <button className="w-[100%] text-md  leading-6 text-gray-900">
                                     <div className='flex gap-2 p-2 items-center'>
-                                        <img className="w-7 h-7" src="/seller.png" alt="" />
+                                        <img className="w-7 h-7" src="https://static.thenounproject.com/png/5077001-200.png" alt="" />
                                         <p className=''>Become a Seller</p>
                                     </div>
                                 </button>
 
                                 <button className="w-[100%] text-md  leading-6 text-gray-900">
                                     <div className='flex gap-2 p-2 items-center'>
-                                        <img className="w-7 h-7" src="/seller.png" alt="" />
+                                        <img className="w-7 h-7" src="https://static.thenounproject.com/png/5077001-200.png" alt="" />
                                         <p className=''>Become a Seller</p>
                                     </div>
                                 </button>
