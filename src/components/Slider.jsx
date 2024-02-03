@@ -55,12 +55,12 @@ export default function Slider() {
 
     return (
 
-        <div ref={slideRef} className="w-full select-none relative">
-            <div className="aspect-w-16 aspect-h-9">
+        <div ref={slideRef} className="w-full select-none relative -z-50">
+            <div className="aspect-w-16 aspect-h-9 -z-50">
                 <img src={images[currentIndex]} alt="" />
             </div>
 
-            <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">
+            <div className=" -z-50 absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">
                 <button
                     className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition"
                     onClick={handleOnPrevClick}

@@ -119,11 +119,11 @@ export default function Selector() {
 
                     {item.more ?
                         (
-                            <div className=" group-hover:block dropdown-menu absolute  hidden  h-auto">
-                                <ul className="top-28 right-0 absolute  w-64 bg-white shadow px-2 py-6">
+                            <div className=" hover:z-50 group-hover:block dropdown-menu absolute  hidden  h-auto">
+                                <ul className="top-28 hover:z-50 z-auto right-0 absolute  w-64 bg-white shadow px-2 py-6">
 
                                     {item.more.map((list) => (
-                                        <li className="   flex items-center  rounded-lg p-2 text-base  hover:bg-gray-200">
+                                        <li className="  z-20 flex items-center  rounded-lg p-2 text-base  hover:bg-gray-200">
                                             <div className="block text-gray-500 text-base  cursor-pointer">{list.title}</div>
                                         </li>
 
