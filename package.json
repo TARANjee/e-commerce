@@ -1,7 +1,7 @@
 {
+  "homepage": "https://TARANjee.github.io/e-commerce",
   "name": "e-commerce",
   "version": "0.1.0",
-  "homepage": "https://TARANjee.github.io/script-guru",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.18",
