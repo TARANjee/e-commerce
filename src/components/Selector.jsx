@@ -110,7 +110,7 @@ export default function Selector() {
         <ul className="w-[100%] flex flex-row overflow-x-scroll sm:overflow-x-hidden sm:justify-center gap-5 p-4">
 
             {datas.map((item) => (
-                <li className="flex flex-col z-50 justify-between items-center font-semibold  dropdown  px-4   cursor-pointer  text-base  ">
+                <li className="flex flex-col z-10 justify-between items-center font-semibold  dropdown  px-4   cursor-pointer  text-base  ">
                     <img src={item.img} alt="" width={70} height={70} />
                     <div className='mt-4 flex gap-1 justify-center items-center'>
                         <p className='text-sm text-center'>{item.name}</p>
@@ -119,8 +119,8 @@ export default function Selector() {
 
                     {item.more ?
                         (
-                            <div className=" hover:z-50 group-hover:block dropdown-menu absolute  hidden  h-auto">
-                                <ul className="top-28 hover:z-50 z-auto right-0 absolute  w-64 bg-white shadow px-2 py-6">
+                            <div className=" hover:z-10 group-hover:block dropdown-menu absolute  hidden  h-auto">
+                                <ul className="top-28 hover:z-10 right-0 absolute  w-64 bg-white shadow px-2 py-6">
 
                                     {item.more.map((list) => (
                                         <li className="  flex items-center  rounded-lg p-2 text-base  hover:bg-gray-200">
