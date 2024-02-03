@@ -9,7 +9,7 @@ function App() {
     <div className='w-full h-full'>
       <Navbar />
       <Selector />
-      <Slider />
+      {/* <Slider /> */}
       <Footer />
     </div>
   );
